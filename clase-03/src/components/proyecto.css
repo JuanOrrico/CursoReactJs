@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h2 {
+    display: flex;
+    align-self: center;
+}
+
+h3 {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 350px;
+    border: 1px solid #999;
+    border-radius: 10%;
+    box-shadow: 2px 5px 10px #666;
+    gap: 10px;
+    margin-bottom: 20px;
+
+
+}

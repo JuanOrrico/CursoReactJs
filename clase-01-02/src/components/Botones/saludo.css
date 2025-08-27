@@ -1,0 +1,20 @@
+
+.btn-saludo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 45px;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 5px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+  
+}
+
+.btn-saludo:active{
+    opacity: 0.5;
+}

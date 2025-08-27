@@ -1,0 +1,27 @@
+.card-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   gap: 10px;
+   padding: 10px;
+   margin: auto;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   border: 2px solid #777;
+   box-shadow: 2px 5px 5px 5px #9e2424;
+}
+
+button{
+    cursor: pointer;
+    background-color: #09f;
+    padding: 10px;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 45px;
+}
+
+button:active{
+    opacity: 0.5;
+}
