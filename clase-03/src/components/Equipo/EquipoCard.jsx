@@ -1,7 +1,7 @@
 import "./equipo.css"
 
-export default function EquipoTalentoLab(){
-
+export default function EquipoCard(){
+    
     const equipo = [
         {
             nombre: "Manuel Quiroz",
@@ -24,19 +24,20 @@ export default function EquipoTalentoLab(){
         }
     ]
 
-    return (
- 
-    <section >
-        <h2>Ejercicio 1</h2>
+    return(
+
+        <section >
+        <h2 className="h2-titulo">Ejercicio 1</h2>
+        
+        
         {equipo.map((team,index)=>(    
             <div key={index} className="card-container" >
                 <img src={team.img} alt={`Imagen de ${team.nombre}`} />
-                <h3>{team.nombre}</h3>
+                <h3 className="h3-card-team">{team.nombre}</h3>
                 <p>{team.rol}</p>
-                </div>           
+            </div>           
 ))}
-   </section>           
+   </section>       
 
     )
 }
-

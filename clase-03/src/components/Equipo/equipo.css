@@ -4,12 +4,17 @@ section{
     
 }
 
-h2{
+.h2-titulo{
     display: flex;
     align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .card-container{
+    background-color: #ecc411;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -22,6 +27,7 @@ h2{
     box-shadow: 2px 5px 10px #666;
     gap: 10px;
     margin-bottom: 20px;
+    margin-top: 50px;
   
     
 }
@@ -36,8 +42,10 @@ img{
     margin: 10px;
 }
 
-h3{
+.h3-card-team{
     text-decoration: underline;
     font-size: 1.7em;
     letter-spacing: 1px;
 }
+
+

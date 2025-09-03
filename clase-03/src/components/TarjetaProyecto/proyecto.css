@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.h3-card-proy {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 12px;
+}
+
+.card-team {
+background-color: #ecc411;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 18%;
+    height: 350px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px #666;
+    gap: 13px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  
+
+
+}
+
+
+button {
+    width: 40%;
+    height: 13%;
+    background-color: #09f;
+    border-radius: 25px;
+    border: 2px solid #ffe600;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+button:active{
+    opacity: 0.8;
+}
