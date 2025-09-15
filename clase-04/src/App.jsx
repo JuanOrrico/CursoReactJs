@@ -1,11 +1,11 @@
-import Contador from "./components/Contador"
+import ECommerce from "./Layouts/ECommerce"
 
 function App() {
  
 
   return (
     <>
-      <Contador boton="+1" />
+      <ECommerce/>
     </>
   )
 }

@@ -1,15 +1,23 @@
-import EquipoTalentoLab from "./components/Equipo/EquipoTalentoLab"
-import TarjetaProyecto from "./components/TarjetaProyecto/TarjetaProyecto"
-import Galeria from "./components/TalentoLab/Galeria"
+import Navigation from "./components/Nav"
+import Gallery from "./components/Gallery"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Main from "./components/Main"
+
+import "bootstrap/dist/css/bootstrap.min.css"
+
 
 
 function App() {
-  
+ 
+
   return (
     <>
-      <EquipoTalentoLab/>
-      <TarjetaProyecto />
-      <Galeria />
+      <Header/>
+      <Navigation/>
+      <Main/>
+      <Gallery/>
+      <Footer/>
     </>
   )
 }
